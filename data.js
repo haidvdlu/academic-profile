@@ -69,18 +69,6 @@ window.SITE_DATA = {
       "fieldEn": "Information Technology, Computer Science"
     }
   ],
-  "training": [
-    {
-      "year": "2012",
-      "vi": "Chứng chỉ nghiệp vụ sư phạm giảng dạy đại học – Trường Đại học Đà Lạt",
-      "en": "Certificate in University Teaching Pedagogy – Dalat University"
-    },
-    {
-      "year": "2018",
-      "vi": "Chứng chỉ bồi dưỡng giảng viên chính – Trường Đại học Vinh",
-      "en": "Senior Lecturer Professional Development Certificate – Vinh University"
-    }
-  ],
   "researchInterests": [
     {
       "title": "Data Mining",
@@ -93,9 +81,9 @@ window.SITE_DATA = {
       "en": "Utility-Driven / Useful Pattern Mining"
     },
     {
-      "title": "Sequences",
-      "vi": "Khai thác mẫu tuần tự",
-      "en": "Sequential Pattern Mining"
+      "title": "Machine Learning",
+      "vi": "Machine Learning",
+      "en": "Machine Learning"
     },
     {
       "title": "Artificial Intelligence",
@@ -118,8 +106,8 @@ window.SITE_DATA = {
       "en": "Utility-Driven Mining (Useful Pattern Mining)"
     },
     {
-      "vi": "Sequences",
-      "en": "Sequences"
+      "vi": "Machine Learning",
+      "en": "Machine Learning"
     },
     {
       "vi": "AI",
@@ -128,16 +116,6 @@ window.SITE_DATA = {
     {
       "vi": "Big Data",
       "en": "Big Data"
-    }
-  ],
-  "textbooks": [
-    {
-      "title": "Hệ điều hành",
-      "roleVi": "Tác giả",
-      "roleEn": "Author",
-      "publisherVi": "Trường Đại học Đà Lạt",
-      "publisherEn": "Dalat University",
-      "year": "2010"
     }
   ],
   "reviewing": [
@@ -785,14 +763,10 @@ window.SITE_DATA = {
     }
   ],
   "supervision": {
-    "phdGraduated": null,
+    "phdGraduated": 0,
     "phdOngoing": 2,
     "mastersGraduated": 5,
     "mastersOngoing": 3
-  },
-  "ipProducts": {
-    "vi": "CV không liệt kê phát minh, sáng chế, văn bằng bảo hộ sở hữu trí tuệ hoặc sản phẩm KHCN.",
-    "en": "The CV contains no listed patents, intellectual-property certificates, or science and technology products."
   },
   "workshops": []
 };

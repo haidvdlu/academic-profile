@@ -219,3 +219,15 @@ Dữ liệu tin đặt trong mảng:
 ```
 
 Ảnh đầu tiên được dùng làm ảnh bìa. Nếu có nhiều ảnh, website tự hiển thị gallery ảnh nhỏ.
+
+
+## Cập nhật phiên bản v5
+- “Thông tin & học thuật” → “Thông tin cá nhân”.
+- “Đào tạo & Bồi dưỡng” → “Đào tạo”.
+- Bỏ mục “Đào tạo khác”.
+- “Sequences” → “Machine Learning” trong phần Nghiên cứu khoa học.
+- Bỏ “Giáo trình”.
+- Bỏ “Sở hữu trí tuệ & sản phẩm KHCN”.
+- “Đề tài, dự án & nhiệm vụ KHCN” → “Dự án”.
+- “Giải thưởng & đào tạo sau đại học” → “Học bổng và Giải thưởng”.
+- Số tiến sĩ đã đào tạo hiển thị là `0`.

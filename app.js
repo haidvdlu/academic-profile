@@ -9,20 +9,20 @@
       navResearch:"Nghiên cứu khoa học", navPubs:"Công bố", navProjects:"Đề tài",
       navWorkshops:"Hội thảo", navAwards:"Giải thưởng", navContact:"Liên hệ",
       viewPublications:"Xem công bố", portraitCaption:"Hồ sơ học thuật cá nhân",
-      aboutTitle:"Thông tin & học thuật", aboutLead:"Học vị, học hàm và thông tin công tác phù hợp để công khai.",
+      aboutTitle:"Thông tin cá nhân", aboutLead:"Học vị, học hàm và thông tin công tác phù hợp để công khai.",
       academicProfile:"Hồ sơ học thuật", publicDetails:"Thông tin công tác",
-      educationTitle:"Đào tạo & bồi dưỡng", educationLead:"Quá trình đào tạo chính quy và các chứng chỉ chuyên môn.",
-      degreePath:"Quá trình đào tạo", trainingTitle:"Đào tạo khác",
+      educationTitle:"Đào tạo", educationLead:"Quá trình đào tạo chính quy.",
+      degreePath:"Quá trình đào tạo",
       researchTitle:"Nghiên cứu khoa học", researchLead:"Hướng nghiên cứu, lĩnh vực giảng dạy, phản biện và giáo trình.",
-      reviewingTitle:"Tạp chí & hội nghị tham gia phản biện", textbookTitle:"Giáo trình", ipTitle:"Sở hữu trí tuệ & sản phẩm KHCN",
+      reviewingTitle:"Tạp chí & hội nghị tham gia phản biện",
       publicationsTitle:"41 công bố khoa học", publicationsLead:"Danh mục đầy đủ trong CV, có thể tìm kiếm và lọc theo năm, loại công bố.",
       noResults:"Không có công bố phù hợp.",
-      projectsTitle:"Đề tài, dự án & nhiệm vụ KHCN", projectsLead:"10 nhiệm vụ chủ trì và 4 nhiệm vụ tham gia với tư cách thành viên.",
+      projectsTitle:"Dự án", projectsLead:"10 nhiệm vụ chủ trì và 4 nhiệm vụ tham gia với tư cách thành viên.",
       ledProjects:"Chủ trì (10)", memberProjects:"Thành viên (4)",
       workshopsTitle:"Hội thảo", workshopsLead:"Tin hội thảo, hội nghị, seminar và hình ảnh hoạt động học thuật.",
       workshopsEmptyTitle:"Chưa có tin hội thảo.", workshopsEmptyText:"Có thể thêm bài viết và hình ảnh trong data.js theo hướng dẫn đi kèm.",
       readMore:"Xem thêm", photoCount:"ảnh",
-      awardsTitle:"Giải thưởng & đào tạo sau đại học", awardsLead:"Các giải thưởng, học bổng và số liệu hướng dẫn sau đại học trong CV.",
+      awardsTitle:"Học bổng và Giải thưởng", awardsLead:"Các giải thưởng, học bổng và số liệu hướng dẫn sau đại học trong CV.",
       awardListTitle:"Học bổng & giải thưởng KHCN", supervisionTitle:"Đào tạo sau đại học",
       contactTitle:"Liên hệ", contactLead:"Thông tin liên hệ công việc phù hợp để công khai.",
       totalPubs:"Công bố", intlJournals:"Tạp chí quốc tế", intlConfs:"Hội nghị quốc tế", projectsLed:"Đề tài chủ trì", masters:"Thạc sĩ đã đào tạo",
@@ -32,27 +32,27 @@
       no:"TT", project:"Tên đề tài", level:"Cấp/Mã đề tài", period:"Thời gian", result:"Kết quả",
       phdOngoing:"NCS đang hướng dẫn", mastersGraduated:"Thạc sĩ đã đào tạo", mastersOngoing:"Thạc sĩ đang hướng dẫn",
       phdGraduated:"Tiến sĩ đã đào tạo", email:"Email cơ quan", workPhone:"Điện thoại cơ quan", workAddress:"Địa chỉ cơ quan",
-      author:"Tác giả", publisher:"Nơi xuất bản", year:"Năm", unknown:"Không ghi trong CV"
+      author:"Tác giả", publisher:"Nơi xuất bản", year:"Năm", unknown:"0"
     },
     en:{
       navAbout:"About", navEducation:"Education", navResearchGroup:"Research",
       navResearch:"Research", navPubs:"Publications", navProjects:"Projects",
       navWorkshops:"Workshops", navAwards:"Awards", navContact:"Contact",
       viewPublications:"View publications", portraitCaption:"Personal academic profile",
-      aboutTitle:"Academic profile", aboutLead:"Academic rank, degrees, and professional information suitable for a public profile.",
+      aboutTitle:"Personal information", aboutLead:"Academic rank, degrees, and professional information suitable for a public profile.",
       academicProfile:"Academic profile", publicDetails:"Professional information",
-      educationTitle:"Education & training", educationLead:"Formal education and professional certificates.",
-      degreePath:"Academic education", trainingTitle:"Additional training",
+      educationTitle:"Education", educationLead:"Formal academic education.",
+      degreePath:"Academic education",
       researchTitle:"Research", researchLead:"Research interests, teaching areas, peer-review service, and textbook.",
-      reviewingTitle:"Peer-review journals & conferences", textbookTitle:"Textbook", ipTitle:"Intellectual property & S&T products",
+      reviewingTitle:"Peer-review journals & conferences",
       publicationsTitle:"41 scientific publications", publicationsLead:"Complete list from the CV, searchable and filterable by year and publication type.",
       noResults:"No matching publications.",
-      projectsTitle:"Research projects & S&T tasks", projectsLead:"10 projects/tasks led and 4 joined as a member.",
+      projectsTitle:"Projects", projectsLead:"10 projects/tasks led and 4 joined as a member.",
       ledProjects:"Principal investigator (10)", memberProjects:"Member (4)",
       workshopsTitle:"Workshops", workshopsLead:"News, conferences, seminars, and photos from academic activities.",
       workshopsEmptyTitle:"No workshop news yet.", workshopsEmptyText:"Add posts and images in data.js using the included guide.",
       readMore:"Read more", photoCount:"photos",
-      awardsTitle:"Awards & postgraduate supervision", awardsLead:"Awards, scholarships, and postgraduate supervision counts in the CV.",
+      awardsTitle:"Scholarships and Awards", awardsLead:"Awards, scholarships, and postgraduate supervision counts in the CV.",
       awardListTitle:"Awards & scholarships", supervisionTitle:"Postgraduate supervision",
       contactTitle:"Contact", contactLead:"Public professional contact information.",
       totalPubs:"Publications", intlJournals:"International journals", intlConfs:"International conferences", projectsLed:"Projects led", masters:"Master's graduates",
@@ -62,7 +62,7 @@
       no:"No.", project:"Project title", level:"Level/Code", period:"Period", result:"Result",
       phdOngoing:"Ongoing PhD candidates", mastersGraduated:"Master's graduates", mastersOngoing:"Ongoing master's theses",
       phdGraduated:"PhD graduates", email:"Institutional email", workPhone:"Office phone", workAddress:"Work address",
-      author:"Author", publisher:"Publisher", year:"Year", unknown:"Not stated in CV"
+      author:"Author", publisher:"Publisher", year:"Year", unknown:"0"
     }
   };
 
@@ -139,8 +139,6 @@
         <p>${esc(lang==="vi"?e.fieldVi:e.fieldEn)}</p>
         <p>${esc(lang==="vi"?e.institutionVi:e.institutionEn)}</p>
       </div>`).join("");
-    $("#trainingList").innerHTML=d.training.map(e=>`
-      <div class="stack-item"><strong>${esc(e.year)}</strong><div>${esc(lang==="vi"?e.vi:e.en)}</div></div>`).join("");
   }
 
   function renderResearch(){
@@ -152,13 +150,6 @@
         <p>${esc(lang==="vi"?r.vi:r.en)}</p>
       </div>`).join("");
     $("#reviewingList").innerHTML=d.reviewing.map(x=>`<div class="review-item">${esc(x)}</div>`).join("");
-    $("#textbookList").innerHTML=d.textbooks.map(b=>
-      kv(t("year"),esc(b.year))+
-      kv(lang==="vi"?"Tên giáo trình":"Title",esc(b.title))+
-      kv(t("author"),esc(lang==="vi"?b.roleVi:b.roleEn))+
-      kv(t("publisher"),esc(lang==="vi"?b.publisherVi:b.publisherEn))
-    ).join("");
-    $("#ipProducts").textContent=lang==="vi"?d.ipProducts.vi:d.ipProducts.en;
   }
 
   function renderPubSummary(){
