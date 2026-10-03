@@ -84,29 +84,8 @@ window.SITE_DATA = {
   "language": {
     "nameVi": "Tiếng Anh",
     "nameEn": "English",
-    "overall": "IELTS 5.5",
-    "skills": [
-      {
-        "vi": "Nghe",
-        "en": "Listening",
-        "score": "5.5"
-      },
-      {
-        "vi": "Đọc",
-        "en": "Reading",
-        "score": "5.5"
-      },
-      {
-        "vi": "Viết",
-        "en": "Writing",
-        "score": "6.5"
-      },
-      {
-        "vi": "Nói",
-        "en": "Speaking",
-        "score": "5.5"
-      }
-    ]
+    "overall": "IELTS 6.0",
+    
   },
   "researchInterests": [
     {
