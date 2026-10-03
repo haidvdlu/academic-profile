@@ -11,7 +11,7 @@
       viewPublications:"Xem công bố", portraitCaption:"Hồ sơ học thuật cá nhân",
       aboutTitle:"Thông tin cá nhân", aboutLead:"Học vị, học hàm và thông tin công tác phù hợp để công khai.",
       academicProfile:"Hồ sơ học thuật", publicDetails:"Thông tin công tác",
-      educationTitle:"Đào tạo", educationLead:"Quá trình đào tạo chính quy.",
+      educationTitle:"Đào tạo", educationLead:"",
       degreePath:"Quá trình đào tạo",
       researchTitle:"Nghiên cứu khoa học", researchLead:"Hướng nghiên cứu, lĩnh vực giảng dạy, phản biện và giáo trình.",
       reviewingTitle:"Tạp chí & hội nghị tham gia phản biện",
