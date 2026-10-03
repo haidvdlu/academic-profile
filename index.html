@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Hồ sơ học thuật của PGS.TS. Dương Văn Hải - Đào tạo và Nghiên cứu khoa học">
+  <meta name="theme-color" content="#0b2a4a">
+  <title>PGS.TS. Dương Văn Hải | Academic Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="topbar">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top">DVH<span>.</span></a>
+    <button id="menuBtn" class="iconBtn" aria-label="Mở menu">☰</button>
+    <div id="navLinks" class="nav-links">
+      <a href="#about" data-i18n="navAbout">Giới thiệu</a>
+      <a href="#education" data-i18n="navEducation">Đào tạo</a>
+      <a href="#research" data-i18n="navResearch">NCKH</a>
+      <a href="#publications" data-i18n="navPubs">Công bố</a>
+      <a href="#projects" data-i18n="navProjects">Đề tài</a>
+      <a href="#awards" data-i18n="navAwards">Giải thưởng</a>
+      <a href="#contact" data-i18n="navContact">Liên hệ</a>
+    </div>
+    <button id="langBtn" class="langBtn">EN</button>
+  </div>
+</nav>
+
+<header id="top" class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <div class="eyebrow">ACADEMIC PROFILE · TEACHING & RESEARCH</div>
+      <h1><span id="heroTitle"></span> <span id="heroName"></span></h1>
+      <p id="heroPosition" class="hero-position"></p>
+      <p id="heroInstitution" class="hero-institution"></p>
+      <p id="heroResearch" class="hero-research"></p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#publications" data-i18n="viewPublications">Xem công bố</a>
+      </div>
+      <p id="sourceNote" class="source-note"></p>
+    </div>
+    <div class="portrait-shell">
+      <img id="portrait" class="portrait" alt="Dương Văn Hải">
+      <div class="portrait-caption"><span data-i18n="portraitCaption">Hồ sơ học thuật cá nhân</span></div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="metric-strip"><div class="wrap"><div id="metrics" class="metrics"></div></div></section>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="section-head"><div><small>PROFILE</small><h2 data-i18n="aboutTitle">Thông tin & học thuật</h2></div><p data-i18n="aboutLead">Thông tin cá nhân, học vị, học hàm và đơn vị công tác theo CV.</p></div>
+      <div class="about-grid">
+        <article class="card profile-card"><h3 data-i18n="academicProfile">Hồ sơ học thuật</h3><div id="academicProfile"></div></article>
+        <article class="card"><h3 data-i18n="publicDetails">Thông tin công tác</h3><div id="publicDetails"></div></article>
+        <article class="card"><h3 data-i18n="languageTitle">Ngoại ngữ</h3><div id="languageBlock"></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="alt">
+    <div class="wrap">
+      <div class="section-head"><div><small>EDUCATION</small><h2 data-i18n="educationTitle">Đào tạo & bồi dưỡng</h2></div><p data-i18n="educationLead">Quá trình đào tạo chính quy và các chứng chỉ chuyên môn.</p></div>
+      <div class="split-grid"><div><h3 data-i18n="degreePath">Quá trình đào tạo</h3><div id="educationList" class="timeline"></div></div><div><h3 data-i18n="trainingTitle">Đào tạo khác</h3><div id="trainingList" class="stack"></div></div></div>
+    </div>
+  </section>
+
+  <section id="research" class="alt">
+    <div class="wrap">
+      <div class="section-head"><div><small>RESEARCH & TEACHING</small><h2 data-i18n="researchTitle">Chuyên môn & phục vụ học thuật</h2></div><p data-i18n="researchLead">Hướng nghiên cứu, lĩnh vực giảng dạy, phản biện và giáo trình.</p></div>
+      <div id="researchGrid" class="research-grid"></div>
+      <div class="two-col lower-gap">
+        <article class="card"><h3 data-i18n="reviewingTitle">Tạp chí & hội nghị tham gia phản biện</h3><div id="reviewingList"></div></article>
+        <article class="card"><h3 data-i18n="textbookTitle">Giáo trình</h3><div id="textbookList"></div><hr><h3 data-i18n="ipTitle">Sở hữu trí tuệ & sản phẩm KHCN</h3><p id="ipProducts" class="muted"></p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="publications">
+    <div class="wrap">
+      <div class="section-head"><div><small>PUBLICATIONS</small><h2 data-i18n="publicationsTitle">41 công bố khoa học</h2></div><p data-i18n="publicationsLead">Danh mục đầy đủ trong CV, có thể tìm kiếm và lọc theo năm, loại công bố.</p></div>
+      <div id="pubSummary" class="pub-summary"></div>
+      <div class="toolbar">
+        <input id="pubSearch" type="search" placeholder="Tìm theo tiêu đề, tạp chí...">
+        <select id="yearFilter"></select>
+        <select id="categoryFilter"></select>
+      </div>
+      <div id="publicationList" class="pub-list"></div>
+      <div id="pubEmpty" class="empty hidden" data-i18n="noResults">Không có công bố phù hợp.</div>
+    </div>
+  </section>
+
+  <section id="projects" class="alt">
+    <div class="wrap">
+      <div class="section-head"><div><small>PROJECTS</small><h2 data-i18n="projectsTitle">Đề tài, dự án & nhiệm vụ KHCN</h2></div><p data-i18n="projectsLead">10 nhiệm vụ chủ trì và 4 nhiệm vụ tham gia với tư cách thành viên.</p></div>
+      <div class="tabs"><button class="tab active" data-tab="led" data-i18n="ledProjects">Chủ trì (10)</button><button class="tab" data-tab="member" data-i18n="memberProjects">Thành viên (4)</button></div>
+      <div id="projectTable"></div>
+    </div>
+  </section>
+
+  <section id="awards">
+    <div class="wrap">
+      <div class="section-head"><div><small>AWARDS & SUPERVISION</small><h2 data-i18n="awardsTitle">Giải thưởng & đào tạo sau đại học</h2></div><p data-i18n="awardsLead">Các giải thưởng, học bổng và số liệu hướng dẫn sau đại học trong CV.</p></div>
+      <div class="two-col">
+        <article class="card"><h3 data-i18n="awardListTitle">Học bổng & giải thưởng KHCN</h3><div id="awardList" class="award-list"></div></article>
+        <article class="card"><h3 data-i18n="supervisionTitle">Đào tạo sau đại học</h3><div id="supervisionStats" class="supervision-grid"></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <div class="wrap contact-box">
+      <div><small>CONTACT</small><h2 data-i18n="contactTitle">Liên hệ</h2><p data-i18n="contactLead">Thông tin liên hệ công việc phù hợp để công khai.</p></div>
+      <div id="contactDetails" class="contact-details"></div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap footer-inner"><span>© <span id="currentYear"></span> Dương Văn Hải</span><span id="footerSource"></span></div></footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
