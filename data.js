@@ -764,9 +764,9 @@ window.SITE_DATA = {
   ],
   "supervision": {
     "phdGraduated": 0,
-    "phdOngoing": 2,
-    "mastersGraduated": 5,
-    "mastersOngoing": 3
+    "phdOngoing": 3,
+    "mastersGraduated": 7,
+    "mastersOngoing": 1
   },
   "workshops": []
 };
