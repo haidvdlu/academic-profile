@@ -186,3 +186,36 @@ Nếu website trắng sau khi sửa `data.js`, thường do:
 - sửa sai dấu nháy.
 
 Cách an toàn: sao chép một mục hiện có, dán bên dưới, rồi chỉ thay nội dung.
+
+
+## Cập nhật giao diện phiên bản v4
+- Menu **NCKH** là menu xổ xuống gồm 3 mục: Nghiên cứu khoa học, Công bố, Đề tài.
+- Đã bỏ hoàn toàn mục **Trình độ ngoại ngữ** khỏi website và khỏi `data.js`.
+- Ảnh chân dung chính dùng file `portrait.jpg` ở thư mục gốc. Website có thêm đường dẫn dự phòng `assets/images/portrait.jpg`.
+- Đã thêm mục **Hội thảo** để đăng tin và nhiều ảnh.
+
+## Cách đăng tin Hội thảo
+Cách nhanh nhất là xem file `HUONG_DAN_DANG_TIN_HOI_THAO.txt`.
+
+Ảnh hội thảo đặt trong:
+`assets/images/workshops/`
+
+Dữ liệu tin đặt trong mảng:
+```js
+"workshops": [
+  {
+    "date": "2026-10-03",
+    "titleVi": "Tên hội thảo",
+    "titleEn": "Workshop title",
+    "summaryVi": "Mô tả ngắn...",
+    "summaryEn": "Short description...",
+    "images": [
+      "assets/images/workshops/anh-01.jpg",
+      "assets/images/workshops/anh-02.jpg"
+    ],
+    "url": ""
+  }
+]
+```
+
+Ảnh đầu tiên được dùng làm ảnh bìa. Nếu có nhiều ảnh, website tự hiển thị gallery ảnh nhỏ.

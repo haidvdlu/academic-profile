@@ -16,7 +16,7 @@ window.SITE_DATA = {
     "positionEn": "Head, Faculty of Mathematics and Informatics",
     "institutionVi": "Trường Đại học Đà Lạt",
     "institutionEn": "Dalat University",
-    "photo": "assets/images/portrait.jpg",
+    "photo": "portrait.jpg",
     "emails": [
       "haidv@dlu.edu.vn"
     ],
@@ -81,12 +81,6 @@ window.SITE_DATA = {
       "en": "Senior Lecturer Professional Development Certificate – Vinh University"
     }
   ],
-  "language": {
-    "nameVi": "Tiếng Anh",
-    "nameEn": "English",
-    "overall": "IELTS 6.0",
-    
-  },
   "researchInterests": [
     {
       "title": "Data Mining",
@@ -799,5 +793,6 @@ window.SITE_DATA = {
   "ipProducts": {
     "vi": "CV không liệt kê phát minh, sáng chế, văn bằng bảo hộ sở hữu trí tuệ hoặc sản phẩm KHCN.",
     "en": "The CV contains no listed patents, intellectual-property certificates, or science and technology products."
-  }
+  },
+  "workshops": []
 };

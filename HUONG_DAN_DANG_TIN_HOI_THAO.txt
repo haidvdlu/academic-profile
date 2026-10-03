@@ -1,0 +1,37 @@
+MẪU ĐĂNG TIN HỘI THẢO
+
+1. Chép ảnh vào:
+   assets/images/workshops/
+
+Ví dụ:
+   assets/images/workshops/kse2026-01.jpg
+   assets/images/workshops/kse2026-02.jpg
+
+2. Mở data.js, tìm:
+   "workshops": []
+
+3. Thay [] bằng ví dụ sau:
+
+"workshops": [
+  {
+    "date": "2026-10-03",
+    "titleVi": "Tên hội thảo / seminar",
+    "titleEn": "Workshop / seminar title",
+    "summaryVi": "Mô tả ngắn về sự kiện, vai trò tham dự hoặc nội dung trình bày.",
+    "summaryEn": "A short description of the event, participation, or presentation.",
+    "images": [
+      "assets/images/workshops/kse2026-01.jpg",
+      "assets/images/workshops/kse2026-02.jpg"
+    ],
+    "url": ""
+  }
+]
+
+LƯU Ý
+- Có thể đăng 1 hoặc nhiều ảnh cho mỗi tin.
+- Ảnh đầu tiên là ảnh bìa.
+- Nếu không có liên kết chi tiết, để "url": "".
+- Nếu có trang hội thảo, điền URL đầy đủ, ví dụ:
+  "url": "https://example.org/workshop"
+- Có thể thêm nhiều bài bằng cách đặt dấu phẩy giữa các khối { ... }.
+- Ngày nên dùng dạng YYYY-MM-DD để website tự sắp xếp tin mới lên trước.

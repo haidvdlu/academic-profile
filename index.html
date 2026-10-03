@@ -13,15 +13,27 @@
   <div class="wrap nav-inner">
     <a class="brand" href="#top">DVH<span>.</span></a>
     <button id="menuBtn" class="iconBtn" aria-label="Mở menu">☰</button>
+
     <div id="navLinks" class="nav-links">
       <a href="#about" data-i18n="navAbout">Giới thiệu</a>
       <a href="#education" data-i18n="navEducation">Đào tạo</a>
-      <a href="#research" data-i18n="navResearch">NCKH</a>
-      <a href="#publications" data-i18n="navPubs">Công bố</a>
-      <a href="#projects" data-i18n="navProjects">Đề tài</a>
+
+      <div class="nav-dropdown" id="researchMenu">
+        <button class="nav-dropdown-btn" id="researchMenuBtn" type="button" aria-expanded="false">
+          <span data-i18n="navResearchGroup">NCKH</span><span class="chevron">▾</span>
+        </button>
+        <div class="nav-dropdown-menu" id="researchSubmenu">
+          <a href="#research" data-i18n="navResearch">Nghiên cứu khoa học</a>
+          <a href="#publications" data-i18n="navPubs">Công bố</a>
+          <a href="#projects" data-i18n="navProjects">Đề tài</a>
+        </div>
+      </div>
+
+      <a href="#workshops" data-i18n="navWorkshops">Hội thảo</a>
       <a href="#awards" data-i18n="navAwards">Giải thưởng</a>
       <a href="#contact" data-i18n="navContact">Liên hệ</a>
     </div>
+
     <button id="langBtn" class="langBtn">EN</button>
   </div>
 </nav>
@@ -40,7 +52,7 @@
       <p id="sourceNote" class="source-note"></p>
     </div>
     <div class="portrait-shell">
-      <img id="portrait" class="portrait" alt="Dương Văn Hải">
+      <img id="portrait" class="portrait" src="portrait.jpg" alt="Dương Văn Hải">
       <div class="portrait-caption"><span data-i18n="portraitCaption">Hồ sơ học thuật cá nhân</span></div>
     </div>
   </div>
@@ -51,25 +63,36 @@
 
   <section id="about">
     <div class="wrap">
-      <div class="section-head"><div><small>PROFILE</small><h2 data-i18n="aboutTitle">Thông tin & học thuật</h2></div><p data-i18n="aboutLead">Thông tin cá nhân, học vị, học hàm và đơn vị công tác theo CV.</p></div>
-      <div class="about-grid">
+      <div class="section-head">
+        <div><small>PROFILE</small><h2 data-i18n="aboutTitle">Thông tin & học thuật</h2></div>
+        <p data-i18n="aboutLead">Học vị, học hàm và thông tin công tác phù hợp để công khai.</p>
+      </div>
+      <div class="about-grid two-cards">
         <article class="card profile-card"><h3 data-i18n="academicProfile">Hồ sơ học thuật</h3><div id="academicProfile"></div></article>
         <article class="card"><h3 data-i18n="publicDetails">Thông tin công tác</h3><div id="publicDetails"></div></article>
-        <article class="card"><h3 data-i18n="languageTitle">Ngoại ngữ</h3><div id="languageBlock"></div></article>
       </div>
     </div>
   </section>
 
   <section id="education" class="alt">
     <div class="wrap">
-      <div class="section-head"><div><small>EDUCATION</small><h2 data-i18n="educationTitle">Đào tạo & bồi dưỡng</h2></div><p data-i18n="educationLead">Quá trình đào tạo chính quy và các chứng chỉ chuyên môn.</p></div>
-      <div class="split-grid"><div><h3 data-i18n="degreePath">Quá trình đào tạo</h3><div id="educationList" class="timeline"></div></div><div><h3 data-i18n="trainingTitle">Đào tạo khác</h3><div id="trainingList" class="stack"></div></div></div>
+      <div class="section-head">
+        <div><small>EDUCATION</small><h2 data-i18n="educationTitle">Đào tạo & bồi dưỡng</h2></div>
+        <p data-i18n="educationLead">Quá trình đào tạo chính quy và các chứng chỉ chuyên môn.</p>
+      </div>
+      <div class="split-grid">
+        <div><h3 data-i18n="degreePath">Quá trình đào tạo</h3><div id="educationList" class="timeline"></div></div>
+        <div><h3 data-i18n="trainingTitle">Đào tạo khác</h3><div id="trainingList" class="stack"></div></div>
+      </div>
     </div>
   </section>
 
-  <section id="research" class="alt">
+  <section id="research">
     <div class="wrap">
-      <div class="section-head"><div><small>RESEARCH & TEACHING</small><h2 data-i18n="researchTitle">Chuyên môn & phục vụ học thuật</h2></div><p data-i18n="researchLead">Hướng nghiên cứu, lĩnh vực giảng dạy, phản biện và giáo trình.</p></div>
+      <div class="section-head">
+        <div><small>RESEARCH & TEACHING</small><h2 data-i18n="researchTitle">Nghiên cứu khoa học</h2></div>
+        <p data-i18n="researchLead">Hướng nghiên cứu, lĩnh vực giảng dạy, phản biện và giáo trình.</p>
+      </div>
       <div id="researchGrid" class="research-grid"></div>
       <div class="two-col lower-gap">
         <article class="card"><h3 data-i18n="reviewingTitle">Tạp chí & hội nghị tham gia phản biện</h3><div id="reviewingList"></div></article>
@@ -78,9 +101,12 @@
     </div>
   </section>
 
-  <section id="publications">
+  <section id="publications" class="alt">
     <div class="wrap">
-      <div class="section-head"><div><small>PUBLICATIONS</small><h2 data-i18n="publicationsTitle">41 công bố khoa học</h2></div><p data-i18n="publicationsLead">Danh mục đầy đủ trong CV, có thể tìm kiếm và lọc theo năm, loại công bố.</p></div>
+      <div class="section-head">
+        <div><small>PUBLICATIONS</small><h2 data-i18n="publicationsTitle">41 công bố khoa học</h2></div>
+        <p data-i18n="publicationsLead">Danh mục đầy đủ trong CV, có thể tìm kiếm và lọc theo năm, loại công bố.</p>
+      </div>
       <div id="pubSummary" class="pub-summary"></div>
       <div class="toolbar">
         <input id="pubSearch" type="search" placeholder="Tìm theo tiêu đề, tạp chí...">
@@ -92,17 +118,41 @@
     </div>
   </section>
 
-  <section id="projects" class="alt">
+  <section id="projects">
     <div class="wrap">
-      <div class="section-head"><div><small>PROJECTS</small><h2 data-i18n="projectsTitle">Đề tài, dự án & nhiệm vụ KHCN</h2></div><p data-i18n="projectsLead">10 nhiệm vụ chủ trì và 4 nhiệm vụ tham gia với tư cách thành viên.</p></div>
-      <div class="tabs"><button class="tab active" data-tab="led" data-i18n="ledProjects">Chủ trì (10)</button><button class="tab" data-tab="member" data-i18n="memberProjects">Thành viên (4)</button></div>
+      <div class="section-head">
+        <div><small>PROJECTS</small><h2 data-i18n="projectsTitle">Đề tài, dự án & nhiệm vụ KHCN</h2></div>
+        <p data-i18n="projectsLead">10 nhiệm vụ chủ trì và 4 nhiệm vụ tham gia với tư cách thành viên.</p>
+      </div>
+      <div class="tabs">
+        <button class="tab active" data-tab="led" data-i18n="ledProjects">Chủ trì (10)</button>
+        <button class="tab" data-tab="member" data-i18n="memberProjects">Thành viên (4)</button>
+      </div>
       <div id="projectTable"></div>
+    </div>
+  </section>
+
+  <section id="workshops" class="alt">
+    <div class="wrap">
+      <div class="section-head">
+        <div><small>WORKSHOPS & CONFERENCES</small><h2 data-i18n="workshopsTitle">Hội thảo</h2></div>
+        <p data-i18n="workshopsLead">Tin hội thảo, hội nghị, seminar và hình ảnh hoạt động học thuật.</p>
+      </div>
+      <div id="workshopList" class="workshop-grid"></div>
+      <div id="workshopEmpty" class="workshop-empty">
+        <div class="workshop-empty-icon">✦</div>
+        <strong data-i18n="workshopsEmptyTitle">Chưa có tin hội thảo.</strong>
+        <span data-i18n="workshopsEmptyText">Có thể thêm bài viết và hình ảnh trong data.js theo hướng dẫn đi kèm.</span>
+      </div>
     </div>
   </section>
 
   <section id="awards">
     <div class="wrap">
-      <div class="section-head"><div><small>AWARDS & SUPERVISION</small><h2 data-i18n="awardsTitle">Giải thưởng & đào tạo sau đại học</h2></div><p data-i18n="awardsLead">Các giải thưởng, học bổng và số liệu hướng dẫn sau đại học trong CV.</p></div>
+      <div class="section-head">
+        <div><small>AWARDS & SUPERVISION</small><h2 data-i18n="awardsTitle">Giải thưởng & đào tạo sau đại học</h2></div>
+        <p data-i18n="awardsLead">Các giải thưởng, học bổng và số liệu hướng dẫn sau đại học trong CV.</p>
+      </div>
       <div class="two-col">
         <article class="card"><h3 data-i18n="awardListTitle">Học bổng & giải thưởng KHCN</h3><div id="awardList" class="award-list"></div></article>
         <article class="card"><h3 data-i18n="supervisionTitle">Đào tạo sau đại học</h3><div id="supervisionStats" class="supervision-grid"></div></article>
@@ -118,7 +168,12 @@
   </section>
 </main>
 
-<footer><div class="wrap footer-inner"><span>© <span id="currentYear"></span> Dương Văn Hải</span><span id="footerSource"></span></div></footer>
+<footer>
+  <div class="wrap footer-inner">
+    <span>© <span id="currentYear"></span> Dương Văn Hải</span>
+    <span id="footerSource"></span>
+  </div>
+</footer>
 
 <script src="data.js"></script>
 <script src="app.js"></script>

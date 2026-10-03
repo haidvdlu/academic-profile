@@ -1,20 +1,12 @@
-DUONG VAN HAI – PUBLIC ACADEMIC PROFILE WEBSITE
-Source: Academic CV updated 07/02/2026.
+DUONG VAN HAI – PUBLIC ACADEMIC PROFILE WEBSITE v4
 
-This is the PUBLIC version.
-Sensitive personal data has been removed:
-- date of birth
-- gender
-- birthplace / hometown
-- permanent home address
-- personal phone numbers
-- personal email
-- downloadable original CV
+Main updates:
+- Research/Publications/Projects grouped under one Research dropdown menu.
+- Language proficiency section removed.
+- Portrait moved to root portrait.jpg, with fallback copy in assets/images/portrait.jpg.
+- Workshop section added, supporting news posts and multiple images.
+- Sensitive personal data and detailed employment history remain excluded.
 
-Public professional contact information is retained.
-
-Open index.html to view the website.
+Open index.html to preview.
 Edit data.js to update content.
-See HUONG_DAN_CAP_NHAT.md for detailed instructions.
-
-Detailed employment history has also been removed from the public website.
+For workshop posts, read HUONG_DAN_DANG_TIN_HOI_THAO.txt.
